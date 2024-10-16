@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application</title>
+        <link rel="stylesheet" href="job.css">
+    </head>
+    <body>
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/1346944001/photo/close-up-of-co-workers-stacking-their-hands-together.jpg?s=612x612&w=0&k=20&c=lidJcFUSR3rkMt4B0yoNwH55lz3sth9o2280keqBXGE=">
+            <div class="content">
+                <h2>Success by Working Together in a Team</h2>
+                <p>"Teamwork breeds success by combining diverse talents and perspectives, 
+                    turning individual efforts into collective achievements, 
+                    and ensuring that together, we reach goals impossible alone."</p>
+            </div>
+            <header>
+                <h1 class="tejas">TejasTech</h1>
+              <nav>
+                <ul>
+                  <li><a href="#about_us"accesskey="a">ABOUT US</a></li>
+                  <li><a href="#application-form"accesskey="b">FORM</a></li>
+                  <li><a href="#contact_us"accesskey="c">CONTACT </a></li>
+                </ul>
+              </nav>
+              </header>
+        </div>
+        <div class="about_us"id="about_us">
+            <h1>About Us</h1>
+            <pre>
+                At TejasTech, we are dedicated to transforming the world through Artificial Intelligence.
+                Our mission is to create AI-driven solutions that not only solve complex problems 
+                but also enhance business efficiency, productivity, and innovation.
+                By leveraging cutting-edge technologies like machine learning, natural language processing, and computer vision, 
+                we deliver products that empower businesses to thrive in an increasingly data-driven world.
+
+                Founded with a passion for innovation, TejasTech combines deep technical expertise with a commitment to ethical AI. 
+                Our team of experienced engineers, data scientists, and technologists works tirelessly to ensure that every solution we deliver is not only powerful 
+                but also responsible, transparent, and scalable.
+                Whether it’s building intelligent automation systems or creating advanced predictive models, 
+                our focus is always on creating solutions that drive meaningful results for our clients.
+
+                At TejasTech, we believe that AI is not just a tool for the future — it’s a force that is shaping today’s world.
+                Our core values of innovation, integrity, and impact guide everything we do. 
+                We are passionate about pushing the boundaries of technology while ensuring that our AI solutions are fair, unbiased, and designed to benefit society.
+            
+                Join us on our journey to harness the power of AI and make a positive impact across industries. Together, we can shape a smarter, more efficient future.
+
+
+                </pre>
+        </div><br><br>
+        <h1 id="application-form">Job Application Form</h1>
+        <p>Please fill out this form with the required information</p>
+        <form action="">
+                <fieldset>
+                    <label for="last-name">Enter Name: <input id="last-name" name="last-name" type="text" required /></label>
+                    <label for="email">Enter Your Email: <input id="email"name="email" type="email" required /></label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <label for="gender"><input id="gender" type="radio" name="male" class="inline">Male</label>
+                        <label for="gender"><input id="gender" type="radio" name="female" class="inline">Female</label>
+                        <label for="gender"><input id="gender" type="radio" name="Prefer not to say" class="inline">Prefer Not to Say</label>
+                    </fieldset>
+                      <fieldset>
+                    <label for="profile-picture">Upload a profile picture:<input id="profile-picture" type="file"name="file" /></label><br>
+                    <label for="birthday">Date of Birth:<input type="date" id="birthday" name="birthday" /></label><br><br>
+                    <label for="address">Select City
+                        <select>
+                            <option value="kozhikode">Kozhikode</option>
+                            <option value="Agra">Agra</option>
+                            <option value="Milan">Milan</option>
+                            <option value="newyork">New York</option>
+                            <option value="Manchester">Manchester</option>
+                            <option value="Jalandhar">Jalandhar</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+                    </label>
+                    <label for="bio">Provide a bio:
+                    <textarea id="bio" name="bio" rows="3" cols="30"placeholder="About Yourself..."></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+        <div class="container"id="contact_us">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>leave us a message:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://burst.shopifycdn.com/photos/contact-us-image.jpg?width=1000&format=pjpg&exif=0&iptc=0"style="width:100%">
+                </div>
+                <div class="column">
+                    <form action>
+                        <label for="name">Name<input type="text" id="name" name="name"placeholder="Your name.." required></label> 
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="india">India</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject"placeholder="Write something.."style="height:100px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer><p>©2024 TejasTech AI</p></footer>
+    </body>
+</html>
